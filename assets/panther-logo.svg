@@ -1,0 +1,133 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" fill="none">
+  <defs>
+    <linearGradient id="pantherNeon" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e879f9" />
+      <stop offset="45%" stop-color="#a855f7" />
+      <stop offset="100%" stop-color="#6d28d9" />
+    </linearGradient>
+    <linearGradient id="pantherDarkArmor" x1="20%" y1="0%" x2="80%" y2="100%">
+      <stop offset="0%" stop-color="#1e1035" />
+      <stop offset="50%" stop-color="#0d0618" />
+      <stop offset="100%" stop-color="#05020a" />
+    </linearGradient>
+    <linearGradient id="eyeGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="40%" stop-color="#f0abfc" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+    <filter id="neonGlow" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Outer Vibranium Crest Shield -->
+  <polygon
+    points="120,10 212,54 226,148 168,218 120,232 72,218 14,148 28,54"
+    fill="url(#pantherDarkArmor)"
+    stroke="url(#pantherNeon)"
+    stroke-width="3.5"
+    filter="url(#neonGlow)"
+  />
+
+  <!-- Inner Geometric Wakanda Circuit Frame -->
+  <polygon
+    points="120,22 200,61 212,143 161,206 120,218 79,206 28,143 40,61"
+    fill="none"
+    stroke="#a855f7"
+    stroke-opacity="0.35"
+    stroke-width="1.5"
+    stroke-dasharray="8 4"
+  />
+
+  <!-- Crown Kinetic Spikes -->
+  <path
+    d="M88 46 L104 28 L120 44 L136 28 L152 46"
+    stroke="url(#pantherNeon)"
+    stroke-width="2.5"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+
+  <!-- Left & Right Ears (Angular Luxury Panther Geometry) -->
+  <path
+    d="M52 84 L42 42 L86 58 Z"
+    fill="#140926"
+    stroke="url(#pantherNeon)"
+    stroke-width="3"
+    stroke-linejoin="round"
+  />
+  <path
+    d="M188 84 L198 42 L154 58 Z"
+    fill="#140926"
+    stroke="url(#pantherNeon)"
+    stroke-width="3"
+    stroke-linejoin="round"
+  />
+
+  <!-- Inner Ear Kinetic Glow -->
+  <path d="M56 76 L50 51 L78 61 Z" fill="url(#pantherNeon)" opacity="0.45" />
+  <path d="M184 76 L190 51 L162 61 Z" fill="url(#pantherNeon)" opacity="0.45" />
+
+  <!-- Main Panther Cranium & Cheek Armor -->
+  <path
+    d="M120 46 L164 60 L192 98 L178 152 L148 190 L120 204 L92 190 L62 152 L48 98 L76 60 Z"
+    fill="url(#pantherDarkArmor)"
+    stroke="url(#pantherNeon)"
+    stroke-width="3"
+    stroke-linejoin="round"
+  />
+
+  <!-- Faceted Brow & Bridge Lines -->
+  <path
+    d="M120 46 L120 132 M76 60 L104 96 L120 88 L136 96 L164 60"
+    stroke="#c084fc"
+    stroke-width="2"
+    stroke-opacity="0.65"
+    fill="none"
+  />
+
+  <!-- Cheekbone Kinetic Slashes -->
+  <path
+    d="M58 112 L94 134 L104 156 M182 112 L146 134 L136 156"
+    stroke="url(#pantherNeon)"
+    stroke-width="2.5"
+    stroke-linecap="round"
+    fill="none"
+  />
+
+  <!-- Fierce Glowing Panther Eyes -->
+  <polygon
+    points="70,104 108,114 98,125 66,115"
+    fill="url(#eyeGlow)"
+    filter="url(#neonGlow)"
+  />
+  <polygon
+    points="170,104 132,114 142,125 174,115"
+    fill="url(#eyeGlow)"
+    filter="url(#neonGlow)"
+  />
+
+  <!-- Nose Bridge & Muzzle Plate -->
+  <polygon
+    points="120,126 138,144 120,160 102,144"
+    fill="url(#pantherNeon)"
+    opacity="0.85"
+  />
+
+  <!-- Jaw & Fangs Accent -->
+  <path
+    d="M92 166 L104 182 L120 174 L136 182 L148 166"
+    stroke="#f0abfc"
+    stroke-width="3"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    fill="none"
+  />
+
+  <!-- Wakanda Necklace / Collar Claws at Bottom -->
+  <polygon points="84,198 92,216 100,202" fill="url(#pantherNeon)" />
+  <polygon points="106,204 112,222 118,206" fill="url(#pantherNeon)" />
+  <polygon points="134,204 128,222 122,206" fill="url(#pantherNeon)" />
+  <polygon points="156,198 148,216 140,202" fill="url(#pantherNeon)" />
+</svg>
